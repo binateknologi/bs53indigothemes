@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+$font-family: "Montserats";
+$primary: #5c24e0;
+$success: #3ad64f;
+$danger: #f44336;
+$secondary: #312253;
+$info: #2053fc;
+$dark: #3e465f;
+$warning: #f5b11f;
+$light: #f1f1f1;
+
+.table {
+  padding: 10px !important;
+}
+
+.table,
+tr,
+td {
+  background-color: white !important;
+}
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  border-color: #00000025 !important;
+  border-style: solid !important;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+table.dataTable {
+  border-collapse: collapse !important;
+  /* border-spacing: 0; */
+}
+.navbar {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+$color-contrast: #fff;
+$border-radius: 4px;
+
+.form-control {
+  box-shadow: none !important;
+  font-size: 0.3rem;
+  border-width: 0.1em !important;
+  border-color: #31225331 !important;
+  border-radius: 0px;
+  color: #343434 !important;
+ 
+  line-height: 0px !important;
+}
+.form-control:focus {
+  border-color: #6533d8d0 !important;
+  color: #343434 !important;
+}
+.card {
+  border-color: rgba(0, 0, 0, 0) !important;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.12);
+}
+.card-header,
+.card-footer {
+  border-color: rgba(0, 0, 0, 0.116) !important;
+
+  background-color: #fff !important;
+}
+
+.btn {
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.12);
+  letter-spacing: 0.06em !important;
+}
+.btn-outline-primary:hover,
+.btn-outline-success:hover,
+.btn-outline-warning:hover,
+.btn-outline-dark:hover:hover {
+  color: white !important;
+}
+
+.form-label {
+  margin-bottom: 2px !important;
+}
+small.text-muted {
+  font-size: 0.7em !important;
+}
+
+.btn-success,
+.btn-warning,
+.btn-danger,
+.btn-primary,
+.btn-info {
+  color: #fff !important;
+}
+.dataTables_filter .form-control {
+  padding: 3px !important;
+  border-radius: 4px;
+}
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/variables-dark";
